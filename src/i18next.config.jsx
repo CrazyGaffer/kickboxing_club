@@ -38,6 +38,24 @@ const resources = {
                 title: "Customer Parking",
                 description: "Start parking at X6 Pärnu mnt 43A using the Snabb app and enter the promo code SAKURA15 to automatically receive a 15% discount."
             },
+            footer: {
+                workingHours: "Working Hours",
+                monThu: "Mon-Thu: 11 AM – 11 PM",
+                fri: "Fri: 11 AM – 12 AM",
+                sat: "Sat: 12 PM – 12 AM",
+                sun: "Sun: 12 PM – 10 PM",
+                contact: "Contact",
+                email: "info@sakuraresto.ee",
+                phone: "+372 5486 0852",
+                address: "Pärnu mnt 32, Tallinn",
+                followUs: "Follow Us",
+                quickLinks: "Quick Links",
+                home: "Home",
+                menu: "Menu",
+                about: "About",
+                events: "Events",
+                rightsReserved: "All rights reserved | Developed by CrazyGaffer"
+            }
         }
     },
     et: {
@@ -76,6 +94,24 @@ const resources = {
                 title: "Kliendi parkimine",
                 description: "Alusta parkimist X6 Pärnu mnt 43A parklas Snabb'i rakenduse kaudu ning sisesta promokood SAKURA15, et saada automaatselt 15% soodustust."
             },
+            footer: {
+                workingHours: "Tööaeg",
+                monThu: "E-N: 11:00 – 23:00",
+                fri: "R: 11:00 – 00:00",
+                sat: "L: 12:00 – 00:00",
+                sun: "P: 12:00 – 22:00",
+                contact: "Võta ühendust",
+                email: "info@sakuraresto.ee",
+                phone: "+372 5486 0852",
+                address: "Pärnu mnt 32, Tallinn",
+                followUs: "Jälgi meid",
+                quickLinks: "Kiirlinkid",
+                home: "Avaleht",
+                menu: "Menüü",
+                about: "Meist",
+                events: "Üritused",
+                rightsReserved: "Kõik õigused kaitstud | Developed by CrazyGaffer"
+            }
         }
     },
     ru: {
@@ -114,6 +150,24 @@ const resources = {
                 title: "Парковка для клиентов",
                 description: "Начните парковку на X6 Pärnu mnt 43A через приложение Snabb и введите промокод SAKURA15, чтобы автоматически получить 15% скидку."
             },
+            footer: {
+                workingHours: "Режим работы",
+                monThu: "Пн-Чт: 11:00 – 23:00",
+                fri: "Пт: 11:00 – 00:00",
+                sat: "Сб: 12:00 – 00:00",
+                sun: "Вс: 12:00 – 22:00",
+                contact: "Контакты",
+                email: "info@sakuraresto.ee",
+                phone: "+372 5486 0852",
+                address: "Пярну mnt 32, Таллин",
+                followUs: "Подписывайтесь",
+                quickLinks: "Быстрые ссылки",
+                home: "Главная",
+                menu: "Меню",
+                about: "О нас",
+                events: "События",
+                rightsReserved: "Все права защищены | Developed by CrazyGaffer"
+            }
         }
     }
 };

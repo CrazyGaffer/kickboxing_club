@@ -11,7 +11,7 @@ const Header = () => {
 
     const navItems = [
         { id: 'hero', label: t('navbar.home') },
-        { id: 'about', label: t('navbar.about') },
+        { id: 'about-section', label: t('navbar.about') },
         { id: 'pricing-page', label: t('navbar.pricing') },
         { id: 'contact-section', label: t('navbar.contact') },
     ];

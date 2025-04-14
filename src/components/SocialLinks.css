@@ -1,0 +1,16 @@
+.about-socials {
+    display: flex;
+    margin-top: 1rem;
+    gap: 1rem;
+    justify-content: start;
+}
+
+.about-socials a {
+    font-size: 1.7rem;
+    color: #333333;
+}
+
+.about-socials a:hover {
+    color: #d62828;
+    text-decoration: none;
+}

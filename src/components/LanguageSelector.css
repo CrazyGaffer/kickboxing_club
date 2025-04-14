@@ -66,6 +66,7 @@
 
 .chevron {
     transition: transform 0.3s ease;
+    color: black;
 }
 
 .chevron.rotate {
@@ -74,4 +75,5 @@
 
 .language-text {
     white-space: nowrap;
+    color: black;
 }

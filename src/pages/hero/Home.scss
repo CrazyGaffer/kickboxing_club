@@ -18,8 +18,8 @@ $font-primary: 'Montserrat', sans-serif;
     max-width: 1400px;
     margin: 0 auto;
     position: relative;
-    padding-left: 2%;
-    padding-right: 2%;
+    //padding-left: 2%;
+    //padding-right: 2%;
     z-index: 1;
     gap: 3rem;
 
@@ -96,7 +96,6 @@ $font-primary: 'Montserrat', sans-serif;
   }
 }
 
-
 .hero__services {
   margin-top: 4rem;
   text-align: left;
@@ -125,7 +124,6 @@ $font-primary: 'Montserrat', sans-serif;
 }
 
 .hero__stat-card {
-  padding: 1.5rem 0;
   align-items: center;
   gap: 1rem;
   min-width: 160px;
@@ -134,7 +132,7 @@ $font-primary: 'Montserrat', sans-serif;
 
   .hero__stat-icon {
     font-size: 3rem;
-    margin-top: 1rem;
+    margin-top: 1.2rem;
     color: #d62828;
   }
 
@@ -194,17 +192,17 @@ $font-primary: 'Montserrat', sans-serif;
     display: flex;
     font-family: $font-primary;
     flex-direction: column;
-  }
 
-  h4 {
-    color: #222;
-    font-size: 1.05rem;
-    margin-bottom: 0.25rem;
-  }
+    h4 {
+      color: #222;
+      font-size: 1.05rem;
+      margin-bottom: 0;
+    }
 
-  p {
-    color: gray;
-    font-size: 0.8rem;
+    p {
+      color: gray;
+      font-size: 0.8rem;
+    }
   }
 
   .stat-icon-star {
@@ -230,17 +228,17 @@ $font-primary: 'Montserrat', sans-serif;
 
   &.hero__floating-card--one {
     top: 35%;
-    right: 0;
+    right: 8%;
   }
 
   &.hero__floating-card--two {
     bottom: 25%;
-    left: 5%;
+    left: -8%;
   }
 
-  &.hero__floating-card--third{
+  &.hero__floating-card--third {
     top: 25%;
-    left: -10%;
+    left: -16%;
   }
 
   @media (max-width: 992px) {

@@ -1,0 +1,78 @@
+/* src/styles/About.scss */
+
+.about-section {
+  width: 100%;
+  padding: 5rem 2rem;
+  $font-primary: 'Montserrat', sans-serif;
+  background-color: #ffffff;
+
+  &__container {
+    max-width: 1400px;
+    margin: 0 auto;
+    display: flex;
+    font-family: $font-primary;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+    gap: 2rem;
+
+    @media (min-width: 768px) {
+      flex-direction: row;
+      align-items: center;
+      min-height: 500px;
+      gap: 2rem;
+    }
+  }
+
+  &__image-wrapper {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+
+    @media (min-width: 768px) {
+      justify-content: flex-start;
+      align-items: center;
+    }
+  }
+
+  &__image {
+    width: 100%;
+    max-width: 550px;
+    height: auto;
+    object-fit: cover;
+    border-radius: 6%;
+  }
+
+  &__content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: stretch;
+
+    @media (min-width: 768px) {
+      padding: 2rem 0;
+    }
+  }
+
+  &__title {
+    font-size: 1.8rem;
+    margin-bottom: 0.5rem;
+    text-transform: none;
+    color: #333;
+  }
+
+  &__subtitle {
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+    line-height: 1.5;
+    color: #718096;
+  }
+
+  &__description {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #666;
+    margin-bottom: 0;
+  }
+}

@@ -1,8 +1,8 @@
-import React from 'react';
 import './Home.scss';
-import {FaUsers, FaStar, FaDumbbell, FaUserNinja} from 'react-icons/fa';
-import { GiBoxingGloveSurprise } from "react-icons/gi";
+import {FaStar, FaDumbbell, FaUserNinja, FaFistRaised} from 'react-icons/fa';
+import { BsFillPeopleFill } from "react-icons/bs";
 import heroImage from '/src/assets/kickboxer.png';
+import {ImPower} from "react-icons/im";
 
 const Home = () => {
     return (
@@ -26,16 +26,16 @@ const Home = () => {
                         <div className="hero__stats">
                             <div className="hero__stat-card">
                                 <div className="hero__stat-icon">
-                                    <FaUsers />
+                                    <FaFistRaised />
                                 </div>
                                 <div>
-                                    <h3>Kickbox Tribe</h3>
-                                    <p>Join our fighter family</p>
+                                    <h3>Knockout Crew</h3>
+                                    <p>Unleash your potential</p>
                                 </div>
                             </div>
                             <div className="hero__stat-card">
                                 <div className="hero__stat-icon">
-                                    <GiBoxingGloveSurprise />
+                                    <ImPower />
                                 </div>
                                 <div>
                                     <h3>Power Sessions</h3>
@@ -44,7 +44,7 @@ const Home = () => {
                             </div>
                             <div className="hero__stat-card">
                                 <div className="hero__stat-icon">
-                                    <FaDumbbell />
+                                    <BsFillPeopleFill />
                                 </div>
                                 <div>
                                     <h3>Elite Coaching</h3>
