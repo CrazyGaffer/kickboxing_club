@@ -78,7 +78,7 @@ const PricingPage = () => {
                         </ul>
 
                         <button className="cta-button">
-                            Get Started
+                            Contact Us
                             <span className="hover-effect"></span>
                         </button>
                     </div>
